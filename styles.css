@@ -11,9 +11,6 @@ body {
 
 }
 
-* {
-    /* border: 2px solid red; */
-}
 
 .main-container {
     height: 100vh;
@@ -150,6 +147,7 @@ body {
     }
     
     .header {
+        margin-top: 3rem;
         font-size: 0.4rem;
         text-align: center;
         height: 2rem;
@@ -166,18 +164,20 @@ body {
 
 .center-container {
     height: 100vh;
-    width: 90vw;
+    width: 80vw;
     margin-top: -9rem;
 }
 
 .square {
-    width: 14vw;
+    width: 10vw;
+    height: 6vh;
 }
 
 .keyboard {
     height: 30vh;
     width: 90vw;
     margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 
 .key {
